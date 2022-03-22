@@ -23,7 +23,7 @@ class OrderSuccessController: UIViewController {
         super.viewDidLoad()
         configureUI()
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)

@@ -10,7 +10,7 @@ import UIKit
 
 final class OrderSuccessView: UIView {
     var routDelegate: PresentNextControllerDelegate?
-    
+
     private(set) lazy var labelImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -86,7 +86,7 @@ final class OrderSuccessView: UIView {
             make.width.equalTo(200)
         }
     }
-    
+
     @objc
     private func presentPrevController(sender _: UIButton) {
         routDelegate?.present(nil)
